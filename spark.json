@@ -1,0 +1,7 @@
+{
+	"name": "MFRC522",
+	"author": "Paul Kourany",
+	"version": "0.0.1",
+	"license": "Unknown",
+	"description": "MFRC522 RFID library"
+}
