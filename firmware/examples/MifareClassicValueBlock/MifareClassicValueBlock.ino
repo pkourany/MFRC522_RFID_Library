@@ -30,7 +30,7 @@
  */
 
 //#include <SPI.h>
-#include "MFRC522.h"
+#include "MFRC522/MFRC522.h"
 
 #define SS_PIN SS
 #define RST_PIN D2
