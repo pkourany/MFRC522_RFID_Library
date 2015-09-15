@@ -1,7 +1,7 @@
 {
 	"name": "MFRC522",
 	"author": "Paul Kourany",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"license": "Unknown",
 	"description": "MFRC522 RFID library"
 }
