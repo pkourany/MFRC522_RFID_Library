@@ -3,5 +3,5 @@
 	"author": "Paul Kourany",
 	"version": "0.1.2",
 	"license": "Unknown",
-	"description": "MFRC522 RFID library"
+	"description": "MFRC522 RFID library for Particle devices"
 }
