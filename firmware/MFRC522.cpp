@@ -29,7 +29,7 @@ MFRC522::MFRC522(	byte chipSelectPin,		///< Arduino pin connected to MFRC522's S
 	digitalWrite(_resetPowerDownPin, LOW);
 	
 	// Set SPI bus to work with MFRC522 chip.
-	setSPIConfig();
+	//setSPIConfig();
 } // End constructor
 
 /**
@@ -37,6 +37,8 @@ MFRC522::MFRC522(	byte chipSelectPin,		///< Arduino pin connected to MFRC522's S
  * Please call this function if you have changed the SPI config since the MFRC522 constructor was run.
  */
 void MFRC522::setSPIConfig() {
+	SPI.begin();			// Init SPI bus
+	SPI.setClockDivider(SPI_CLOCK_DIV8);
 	SPI.setBitOrder(MSBFIRST);
 	SPI.setDataMode(SPI_MODE0);
 } // End setSPIConfig()
