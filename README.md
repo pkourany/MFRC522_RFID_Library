@@ -1,6 +1,9 @@
-rfid
+RFID
 ====
+
 Adapted for Spark Core by Paul Kourany, May 2014
+
+v0.1.2 - SOS bug fixed, now compatible with all Particle devices
 
 Read a card using a mfrc522 reader on your SPI interface on your Arduino
 * Pin layout should be as follows (on Spark Core):
