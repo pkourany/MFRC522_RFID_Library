@@ -1,6 +1,7 @@
 RFID
 ====
 
+Update for Libraries 2.0 by Paul Kourany, Jan 2017 - v1.0.3
 Adapted for Spark Core by Paul Kourany, May 2014
 
 v0.1.2 - SOS bug fixed, now compatible with all Particle devices

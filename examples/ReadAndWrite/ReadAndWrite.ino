@@ -36,8 +36,9 @@
  * The reader can be found on eBay for around 5 dollars. Search for "mf-rc522" on ebay.com. 
  */
 
-//#include <SPI.h>
-#include "MFRC522/MFRC522.h"
+ 
+ //#include <SPI.h>
+#include "MFRC522.h"
 
 #define SS_PIN SS
 #define RST_PIN D2

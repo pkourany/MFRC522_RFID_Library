@@ -74,7 +74,7 @@
 #ifndef MFRC522_h
 #define MFRC522_h
 
-#include "application.h"
+#include "Particle.h"
 
 //#include <Arduino.h>
 //#include <SPI.h>
