@@ -79,7 +79,9 @@
 //#include <Arduino.h>
 //#include <SPI.h>
 
-typedef uint16_t	word;
+#ifndef word
+  typedef uint16_t	word;
+#endif
 
 class MFRC522 {
 public:
