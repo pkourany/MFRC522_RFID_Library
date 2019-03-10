@@ -13,16 +13,16 @@
  * Aggiunti pin per arduino Mega
  * add pin configuration for arduino mega
  * http://mac86project.altervista.org/
- ----------------------------------------------------------------------------- Nicola Coppola
+ *--------------------------------------------------------------------------- 
  * Pin layout should be as follows:
- * Signal     Pin              Pin               Pin			Pin
- *            Arduino Uno      Arduino Mega      SPARK			MFRC522 board
+ * Signal     Pin              Pin               Pin        Pin
+ *            Arduino Uno      Particle Mesh     SPARK      MFRC522 board
  * ---------------------------------------------------------------------------
- * Reset      9                5                 ANY (D2)		RST
- * SPI SS     10               53                ANY (A2)		SDA
- * SPI MOSI   11               51                A5				MOSI
- * SPI MISO   12               50                A4				MISO
- * SPI SCK    13               52                A3				SCK
+ * Reset      9                D2               D2            RST
+ * SPI SS     10               A2               A2            SDA
+ * SPI MOSI   11               MO               A5            MOSI
+ * SPI MISO   12               MI               A4            MISO
+ * SPI SCK    13               SCK              A3            SCK
  *
  * The reader can be found on eBay for around 5 dollars. Search for "mf-rc522" on ebay.com. 
  */
@@ -31,7 +31,7 @@
 //#include <SPI.h>
 #include "MFRC522.h"
 
-#define SS_PIN SS
+#define SS_PIN A2
 #define RST_PIN D2
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);	// Create MFRC522 instance.
