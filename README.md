@@ -6,14 +6,27 @@ Adapted for Spark Core by Paul Kourany, May 2014
 
 v0.1.2 - SOS bug fixed, now compatible with all Particle devices
 
-Read a card using a mfrc522 reader on your SPI interface on your Arduino
-* Pin layout should be as follows (on Spark Core):
+Read a card using a mfrc522 reader on your SPI interface on your Particle Boards:
+
+__Spark Core__
+
+Pin layout should be as follows:
 * MOSI: Pin A5
 * MISO: Pin A4
 * SCK : Pin A3
 * SS  : Pin A2	(Configurable)
 * RST : Pin D2	(Configurable)
-* 
+
+__[Particle Mesh](https://www.particle.io/mesh/) (Xenon,Argon,Boron)__
+
+Pin layout should be as follows:
+
+* MOSI: MO
+* MISO: MI
+* SCK : SCK
+* SS  : Pin A2	(Configurable)
+* RST : Pin D2	(Configurable)
+
 
 Arduino RFID Library for MFRC522
 
